@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Classifier</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/dropzone.min.css">
+    <style>
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            text-align: center;
+        }
+        #result-holder {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Image Classifier</h1>
+        <form action="/predict" class="dropzone" id="image-dropzone"></form>
+        <button id="classify-btn" class="button">Classify</button>
+        <div id="result-holder">
+            <h2>Classification Result</h2>
+            <p id="result"></p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/dropzone.min.js"></script>
+    <script src="/static/app.js"></script>
+</body>
+</html>
