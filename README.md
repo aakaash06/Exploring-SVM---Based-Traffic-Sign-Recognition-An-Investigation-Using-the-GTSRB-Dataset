@@ -48,3 +48,5 @@ SVM provided better test accuracy in this case, suggesting it can be more effect
 ## Acknowledgments
 - [GTSRB dataset on Kaggle](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign)
 - [GTSDB dataset from Benchmark](https://benchmark.ini.rub.de/gtsdb_dataset.html)
+
+NOTE: The pkl file of the model is too big to upload, you can download it by running the project.ipynb
